@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node index.js"
+    "test":"jest",
+    "start": "babel-node src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.10.4",
     "@babel/node": "^7.10.4",
-    "@babel/preset-env": "^7.10.4"
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
   }
 }
